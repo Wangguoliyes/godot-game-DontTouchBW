@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://bsuintay3wu1b"
+path="res://.godot/imported/944c7feef724de27a537ab2f9fb7328c.png-5c92870dfde18bdc0554029158f89776.res"
+
+[deps]
+
+source_file="res://pic/944c7feef724de27a537ab2f9fb7328c.png"
+dest_files=["res://.godot/imported/944c7feef724de27a537ab2f9fb7328c.png-5c92870dfde18bdc0554029158f89776.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

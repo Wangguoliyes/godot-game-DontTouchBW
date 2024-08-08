@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://dfq47n4sqpmvu"]
+
+[ext_resource type="Script" path="res://model/ui/ui.gd" id="1_qmde6"]
+[ext_resource type="FontFile" uid="uid://cj332yqaqvwi" path="res://font/AaFengKuangYuanShiRen-2.ttf" id="2_vuext"]
+
+[node name="Ui" type="Node2D"]
+script = ExtResource("1_qmde6")
+
+[node name="Label" type="Label" parent="."]
+self_modulate = Color(0, 0, 0, 1)
+offset_left = 2.0
+offset_top = 570.0
+offset_right = 109.0
+offset_bottom = 646.0
+theme_override_fonts/font = ExtResource("2_vuext")
+theme_override_font_sizes/font_size = 70
+text = "得分:"
+
+[node name="score" type="Label" parent="."]
+self_modulate = Color(0, 0, 0, 1)
+offset_left = 185.0
+offset_top = 565.0
+offset_right = 514.0
+offset_bottom = 642.0
+theme_override_fonts/font = ExtResource("2_vuext")
+theme_override_font_sizes/font_size = 70
+horizontal_alignment = 1

@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://d12mrew131saa"]
+
+[ext_resource type="Script" path="res://model/menu/menu.gd" id="1_uesm7"]
+[ext_resource type="Texture2D" uid="uid://dow4f80dtrg5" path="res://pic/944c7feef724de27a53733ab2f9fb738c.png" id="3_gs7jo"]
+[ext_resource type="Texture2D" uid="uid://cug4ddbrw0g3s" path="res://pic/944c7feef724de27a537ab2f9fb738c.jpg" id="4_7tae3"]
+[ext_resource type="BitMap" uid="uid://bsuintay3wu1b" path="res://pic/944c7feef724de27a537ab2f9fb7328c.png" id="4_s7ia5"]
+
+[node name="Menu" type="Node2D"]
+script = ExtResource("1_uesm7")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+offset_right = 1153.0
+offset_bottom = 649.0
+
+[node name="Control" type="Control" parent="CenterContainer"]
+layout_mode = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="CenterContainer/Control"]
+position = Vector2(0, 106)
+scale = Vector2(0.798194, 0.794722)
+texture = ExtResource("4_7tae3")
+
+[node name="TextureButton" type="TextureButton" parent="."]
+offset_left = 200.0
+offset_top = 324.0
+offset_right = 872.0
+offset_bottom = 537.0
+texture_normal = ExtResource("3_gs7jo")
+texture_click_mask = ExtResource("4_s7ia5")
